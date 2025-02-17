@@ -4,8 +4,7 @@ import conta.model.Conta;
 
 public interface IContaRepository {
 	
-	//CRUD DA CONTA CREATE READ UPDATE DELETE
-	
+	//CRUD DA CONTA (CREATE READ UPDATE DELETE)	
 	public void procurarPorNumero(int numero);
 	public void listarTodas();
 	public void cadastrar(Conta conta);
